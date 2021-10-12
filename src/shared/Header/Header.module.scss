@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.change__theme,
+.logo {
+  margin-right: 20px;
+}
+
+.logo {
+  svg {
+    width: 65px;
+    height: 65px;
+  }
+}
