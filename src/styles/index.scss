@@ -10,6 +10,8 @@
 body {
   font-family: "Montserrat", sans-serif;
   position: relative;
+  background: var(#{--body-background-default});
+  transition: background-color 0.5s ease;
 }
 
 .container {

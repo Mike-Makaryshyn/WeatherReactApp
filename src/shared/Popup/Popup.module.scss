@@ -19,9 +19,12 @@
   box-shadow: $box-shadow;
   border-radius: $border-radius;
   background: $light-background;
+
+  display: none;
 }
 
 .blur {
+  display: none;
   position: absolute;
   z-index: 190;
   width: 100%;

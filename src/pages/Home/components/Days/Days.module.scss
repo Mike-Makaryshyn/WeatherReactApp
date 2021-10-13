@@ -24,6 +24,7 @@
   .day {
     margin-bottom: 7px;
     font-size: 18px;
+    color: var(#{--text-color-default});
   }
 
   .day__info {
@@ -37,6 +38,7 @@
 
   .temp__day {
     font-size: 18px;
+    color: var(#{--text-color-default});
   }
 
   .temp__night {
@@ -66,8 +68,8 @@
   box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
   border-radius: 5px;
   padding: 9px 20px;
-  background-color: $light-background;
-  color: $dark-color;
+  background-color: var(#{--components-background-default});
+  color: var(#{--text-color-default});
   font-size: 18px;
   display: flex;
   align-items: center;
