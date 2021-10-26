@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, Switch } from "react-router";
 import Home from "./pages/Home/Home";
 import MonthStatistics from "./pages/MonthStatistics/MonthStatistics";
