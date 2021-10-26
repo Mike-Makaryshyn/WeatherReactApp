@@ -4,6 +4,7 @@ import MonthStatistics from "./pages/MonthStatistics/MonthStatistics";
 import Header from "./shared/Header/Header";
 import Popup from "./shared/Popup/Popup";
 
+
 function App() {
   return (
     <div className="global-container">
